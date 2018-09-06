@@ -16,8 +16,8 @@ sim = 0;
 %
 %
 
-
-
+index = sumsq(x1 - x2) / (2 * sigma^2);
+sim = 1 / (e ^ index);
 
 
 
